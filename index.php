@@ -7,16 +7,7 @@
         <link href="styles/style.css" rel="stylesheet" type="text/css">
     </head>
 
-    <header>
-        <h1>The music List</h1>
-
-    </header>
-    <nav>
-        <ul>
-            <li>Trending Music</li>
-            <li>Categories</li>
-            <li>About Us</li>
-        </ul>
-    </nav>
+    <?php include("header.php");
+    include("nav.php")?>
 
 </html>
