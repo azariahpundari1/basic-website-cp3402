@@ -1,0 +1,17 @@
+{
+  "name": "basic-website",
+  "version": "1.0.0",
+  "description": "A basic website for practical 9 Content Management Systems (CMS)",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Azariah Pundari",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^3.2.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}
