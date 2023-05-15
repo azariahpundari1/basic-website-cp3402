@@ -9,6 +9,14 @@
 
     <header>
         <h1>The music List</h1>
+
     </header>
+    <nav>
+        <ul>
+            <li>Trending Music</li>
+            <li>Categories</li>
+            <li>About Us</li>
+        </ul>
+    </nav>
 
 </html>
