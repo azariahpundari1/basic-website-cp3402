@@ -1,7 +1,7 @@
 <?php ?>
 <html>
 <head>
-    <title>Trending</title>
+    <title>Categories</title>
     <meta charset="UTF-8">
     <link href="styles/style.css" rel="stylesheet">
 </head>
