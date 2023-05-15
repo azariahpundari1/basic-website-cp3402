@@ -2,13 +2,13 @@
 <!doctype html>
 <html lang="eng">
     <head>
-        <title>Basic Website Using Sass</title>
+        <title>Azariah's Favourite Music</title>
         <meta charset="UTF-8">
         <link href="styles/style.css" rel="stylesheet" type="text/css">
     </head>
 
     <header>
-        <h1>Music List/h1>
+        <h1>The music List</h1>
     </header>
 
 </html>
