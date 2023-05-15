@@ -14,7 +14,11 @@ echo $name
             $page_title = 'Trending';
         } elseif ($name == 'basic-website/categories') {
             $page_title = 'Categories';
-        } else {
+        }
+        elseif ($name == 'basic-website/about'){
+            $page_title = 'About Us';
+        }
+        else {
             $page_title = '404 page not found';
             $logoImage = '';
         }
