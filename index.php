@@ -10,4 +10,17 @@
     <?php include("header.php");
     include("nav.php")?>
 
+    <body>
+    <p>Here lies my favourite <strong>songs</strong> that I listen to on weekly:</p>
+    <ol>
+        <li>All Creatures of our God and King - Sovereign Grace</li>
+        <li>Touched by Heaven - A Secret Place</li>
+        <li>Patience is a Virtue - Clem Leek</li>
+        <li>Pacific Rim - Ramin Djawadi</li>
+        <li>Ariana - Tony Anderson</li>
+        <li>Sad Emotional Piano - DS Productions</li>
+    </ol>
+    <p>This list is updated by the author weekly</p>
+    </body>
+
 </html>
