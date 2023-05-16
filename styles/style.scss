@@ -1,0 +1,75 @@
+/* Reset margins and paddings */
+html, body, div {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/*Header styles*/
+
+header {
+  display: flex;
+  align-items: center;
+  /*text-align: center;*/
+}
+
+.page-heading{
+  text-align: center;
+  margin: 0 auto;
+}
+
+img {
+  border-radius: 50%;
+  margin: 4em 4em 4em 4em; /*  top right bottom left*/
+}
+
+/* Navigation styles*/
+nav {
+  text-align: center;
+}
+nav ul {
+  display: inline-block;
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 24px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #000;
+}
+
+nav li a:hover {
+  color: #01ffba;
+}
+
+/* Set default font family and font size */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  background-color: snow;
+  display: grid;
+}
+
+.content {
+  text-align: center;
+  margin: 0 auto;
+}
+
+h1 {
+  margin: 0;
+}
+
+
+
+/* Remove outline on focused elements */
+:focus {
+  outline: none;
+}
