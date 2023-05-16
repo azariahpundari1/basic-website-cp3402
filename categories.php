@@ -10,6 +10,6 @@
 include("nav.php")?>
 
 <body>
-
+    <p>Here you will find a list of categories for songs.</p>
 </body>
 </html>
