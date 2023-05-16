@@ -10,6 +10,8 @@
     include("nav.php")?>
     
     <body>
+    <div class="content">
         <p>Here you will find a list of trending songs4.</p>
+    </div>
     </body>
 </html>
