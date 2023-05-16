@@ -1,3 +1,5 @@
+@import "colours";
+@import "fontsize";
 /* Reset margins and paddings */
 html, body, div {
   margin: 0;
@@ -28,33 +30,38 @@ img {
 /* Navigation styles*/
 nav {
   text-align: center;
-}
-nav ul {
-  display: inline-block;
-  list-style: none;
-  padding: 0;
-}
 
-nav li {
-  display: inline-block;
-  margin: 0 10px;
-  font-size: 24px;
-}
+    ul {
+      display: inline-block;
+      list-style: none;
+      padding: 0;
 
-nav li a {
-  text-decoration: none;
-  color: #000;
-}
+      li {
+        display: inline-block;
+        margin: 0 10px;
 
-nav li a:hover {
-  color: #01ffba;
-}
+        a {
+          text-decoration: none;
+          font-size: $font-size-heading;
+          color: $primary-font-colour;
+        }
 
+        a:hover {
+          color: $highlight-colour;
+        }
+
+        a:active {
+          border-bottom: 2px solid black;
+          }
+        }
+      }
+  }
 /* Set default font family and font size */
 body {
   font-family: Arial, sans-serif;
-  font-size: 16px;
-  background-color: snow;
+  font-size: $font-size-body;
+  color: $primary-font-colour;
+  background-color: $background-colour;
   display: grid;
 }
 
